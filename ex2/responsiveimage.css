@@ -1,0 +1,28 @@
+body {
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size:16px;
+	
+}
+
+/*nav-bar*/
+ul{
+	text-decoration:none;
+	background-color:black;
+}
+li{
+	display:inline;
+	color:white;
+	margin: 1em;
+}
+
+/* img */
+img{
+	width: 50%;
+	height: calc(100% - 10em);
+}

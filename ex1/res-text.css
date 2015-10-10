@@ -1,0 +1,20 @@
+body{
+	
+	
+}
+div#text{
+	font-size:5px;
+	
+}
+article#articaluno{
+	font-size: 2em;
+	color: yellow ;
+}
+article#articaldos{
+	font-size: 4em;
+	color: red ;
+}
+article#articaltres{
+	font-size: 6em;
+	color: green ;
+}
