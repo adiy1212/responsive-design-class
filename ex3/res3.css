@@ -1,0 +1,56 @@
+body {
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+/*nav-bar*/
+ul{
+	text-decoration:none;
+	background-color:black;
+}
+li{
+	display:inline;
+	color:white;
+	margin: 1em;
+}
+
+img{
+	display:none;
+}
+iframe{
+	display:none;
+}
+p{
+	display:none;
+}
+
+/* 300px portrait */
+@media screen and (max-width:300px) and (orientation:portrait){
+	img{
+		display:block;
+		width: 40%;
+	}
+	
+}
+/* ratio 4 per 3 */
+@media screen and (min-device-aspect-ratio: 4/3){
+	
+	p{
+		display:block;
+	}
+}
+/* min re 90dpi */
+@media screen and (-webkit-min-device-pixel-ratio: 1),
+(min-resolution: 90dpi) {
+	iframe{
+		display:block;
+		width:70%;
+	}
+	
+}
